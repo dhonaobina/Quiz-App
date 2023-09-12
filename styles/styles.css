@@ -2,6 +2,35 @@ body {
     font-family: Calibri;
 }
 
-#quiz-container {
+.container {
+    display: grid;
+}
+
+.quiz-main-container {
     border: 1px solid black;
+    width: auto;
+    height: 800px;
+    align-content: center;
+}
+
+.question {
+    font-size: large;
+    border: 1px solid black;
+    width: auto;
+    height: 100px;
+    margin: 15px;
+}
+
+.quiz-container {
+    border: 1px solid black;
+    width: auto;
+    height: 500px;
+}
+
+.margin-left{
+    margin-left: 80px !important;
+}
+
+.next-btn {
+  margin-left: 80%
 }
