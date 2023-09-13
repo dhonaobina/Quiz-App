@@ -18,7 +18,7 @@ if (email.value == '')
             document.getElementById("email").value = ID;
         }
         document.getElementById("email").focus();
-        return false;
+        return true;
     }
 
 function startQuiz() {
