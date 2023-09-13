@@ -12,7 +12,7 @@ if (document.getElementById('name').value == '')
 
 if (email.value == '')
     {
-        var ID = alert("Please enter your email address to continue.");
+        var ID = alert("Welcome! Let's start the quiz!")
         if (ID !=null)
         {
             document.getElementById("email").value = ID;
