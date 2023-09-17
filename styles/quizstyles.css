@@ -40,8 +40,8 @@ body.wrong {
     margin: 20px 0;
 }
   
-.btn {
-    background-color: lightblue;
+.btnn {
+    background-color: blue;
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px 10px;
@@ -49,20 +49,21 @@ body.wrong {
     outline: none;
 }
   
-.btn:hover {
+.btnn:hover {
     border-color: black;
 }
   
-.btn.correct {
+.btnn.correct {
     background-color: var(--correct);
     color: black;
 }
   
-.btn.wrong {
+.btnn.wrong {
     background-color: var(--wrong);
 }
   
 .start-btn, .next-btn {
+    display: flex;
     font-size: 1.5rem;
     font-weight: bold;
     padding: 10px 20px;
