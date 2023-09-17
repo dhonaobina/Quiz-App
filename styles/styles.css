@@ -1,12 +1,3 @@
-body {
-    font-family: Calibri;
-}
-
-.container {
-    margin: 5px;
-    
-    
-}
 .login-main-container {
     display: flex;
     justify-content: center;
@@ -24,29 +15,3 @@ body {
     padding: 30px;
     justify-items: center;
 }
-
-.quiz-main-container {
-    border: 1px solid black;
-    width: auto;
-    height: 800px;
-    align-content: center;
-}
-
-.question {
-    font-size: large;
-    border: 1px solid black;
-    width: auto;
-    height: 100px;
-    margin: 15px;
-}
-
-.quiz-container {
-    border: 1px solid black;
-    width: auto;
-    height: 500px;
-}
-
-.next-btn {
-  margin-left: 80%
-}
-

@@ -1,0 +1,83 @@
+*, *::before, *::after {
+    font-family: Calibri;
+  }
+  
+:root {
+    --neutral: grey;
+    --wrong: red;
+    --correct: green;
+}
+  
+body {
+    background-color: grey;
+}
+  
+body.correct {
+    background-color: var(--correct);
+}
+  
+body.wrong {
+    background-color: var(--wrong);
+}
+  
+.container {
+    background-color: lightskyblue;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    display: flex;
+    margin: 5px;
+    width: 100vw;
+    height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+  
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+  
+.btn {
+    background-color: lightblue;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+}
+  
+.btn:hover {
+    border-color: black;
+}
+  
+.btn.correct {
+    background-color: var(--correct);
+    color: black;
+}
+  
+.btn.wrong {
+    background-color: var(--wrong);
+}
+  
+.start-btn, .next-btn {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+  
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.hide {
+    display: none;
+}
+
+footer {
+    background-color: #0e172c
+}
