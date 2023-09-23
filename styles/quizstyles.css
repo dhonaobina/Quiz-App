@@ -62,7 +62,7 @@ body.wrong {
     background-color: var(--wrong);
 }
   
-.start-btn, .next-btn {
+.start-btn {
     display: flex;
     font-size: 1.5rem;
     font-weight: bold;
@@ -73,6 +73,11 @@ body.wrong {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.next-btn , .hide {
+   position: absolute;
+   margin-top: 200px;
 }
   
 .hide {
