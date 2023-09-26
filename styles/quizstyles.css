@@ -3,9 +3,9 @@
   }
   
 :root {
-    --neutral: grey;
-    --wrong: red;
-    --correct: green;
+    --neutral: #f5af02;
+    --wrong: #e53238;
+    --correct: #86b817;
 }
   
 body {
@@ -20,17 +20,33 @@ body.wrong {
     background-color: var(--wrong);
 }
   
-.container {
-    background-color: lightskyblue;
+.containerr {
+    background-color: #efecea;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
-    display: flex;
     margin: 5px;
-    width: 100vw;
     height: 60vh;
+    display: flex;
     justify-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
     align-items: center;
+    align-content: space-between;
+}
+
+#question {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    padding: 10px;
+    width: fit-content;
+    
+}
+
+#question-container {
+   
+
 }
   
 .btn-grid {
@@ -41,7 +57,7 @@ body.wrong {
 }
   
 .btnn {
-    background-color: blue;
+    background-color: #0064d2;
     border: 2px solid black;
     border-radius: 5px;
     padding: 5px 10px;
@@ -71,13 +87,14 @@ body.wrong {
   
 .controls {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .next-btn , .hide {
-   position: absolute;
-   margin-top: 200px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
   
 .hide {
