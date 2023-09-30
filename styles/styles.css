@@ -2,7 +2,8 @@ body {
     background-image: url("img/background_header.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 50% 100%;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -39,7 +40,7 @@ a, h1, h2, li, label, h3 {
 
 footer {
     padding: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 30px;
     width: 100%;
 }
