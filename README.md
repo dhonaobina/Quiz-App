@@ -22,7 +22,7 @@ HTML, CSS, JavaScript and Added Bootstrap
 - Add a score at the end of quiz and create a Scoreboard page
 - Create a way for player to modify questions by theirselves
 - Better positioning of elements
-- I will try to work different framework and challenge to learn more
+- I will work with a different framework and challenge to learn more
 
 ## User Stories
 * As the developer, I want to learn from my mistakes and take feedback positively and continue to learn and create projects similar to quiz app.
