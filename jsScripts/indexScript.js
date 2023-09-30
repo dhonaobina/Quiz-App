@@ -1,10 +1,3 @@
-function playSound(audioName, loop) {
-    let audioStart = new Audio(audioName);
-    audio.loop = loop;
-    audio.play()
-}
-playSound("styles/music/gamekaba.mp3", true)
-
 function validation() {
 var name = document.forms["regForm"]["name"];
 var email = document.forms["regForm"]["email"];
@@ -29,6 +22,8 @@ if (email.value == '')
     }
 
 function startQuiz() {
-    location.replace("quiz.html")
+    location.replace("quiz.html")    
 }
+
+
 };
