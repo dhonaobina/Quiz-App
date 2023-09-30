@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title> Quiz APP | Project 2 </title>
+    <title> Pinoy Quiz | Project 2 </title>
     <meta name="description" content="Quiz Application">
     <meta name="author" content="Dhona Obina" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,7 @@
 <!--Navigation Bar-->
     <nav id="EpicNavbar" class="navbar navbar-expand-lg navbar-dark" style="background-color:#0e172c; opacity:0.9">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Quiz App</a>
+            <a class="navbar-brand" href="index.html">Pinoy Quiz</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -33,7 +33,7 @@
         </div>
         </div>
     </nav> 
-<!--Instructions-->
+<!--Question-->
     <div class="containerr" id="container">
         <div id="question-container" class="hide">
             <div id="question">Question</div>
@@ -45,29 +45,19 @@
                 </div>
             </div>
             <div class="controls">
-                <button id="start-btn" class="start-btn btnn">Start</button>
-                <button id="next-btn" class="next-btn btnn hide">Next</button>
+                <button id="start-btn" class="start-btn btnn" onclick="audio.play();">Start</button>
+                <button id="next-btn" class="next-btn btnn hide" onclick="audio.play();">Next</button>
             </div>
         </div>
     </div>  
 </div>
 <!--Footer Container-->
-<footer class="container-fluid">
+<footer class="container-fluid" id="footerBox">
     <div class="container-fluid footer text-center text-light">
         <div class="row">
-            <!-- Footer Location-->
-            <div class="col-lg-4 p-3 mb-3 mb-lg-3">
-                <h4 class="text-uppercase mb-4">My Location</h4>
-                <p class="lead mb-0">
-                <span>
-                    <p class="lead mb-0">Kaiapoi, Canterbury
-                    </p>
-                    <p class="lead mb-0"> 7630 New Zealand</p>
-                </span>
-            </div>
             <!-- Footer About Text-->
             <div class="col-lg-4 p-3 mb-3 mb-lg-3">
-              <h4 class="text-uppercase mb-4">My Contact</h4>
+              <h4 class="text-uppercase mb-4">Contact Developer</h4>
               <p class="lead mb-0">
                 <span>
                   <p class="lead mb-0">dhona.obina@outlook.com</p>
@@ -75,24 +65,32 @@
                 </span>
               </p>
             </div>
-            <!-- Footer Social Icons-->
+            <!-- Footer Location-->
             <div class="col-lg-4 p-3 mb-3 mb-lg-3">
-                <h4 class="text-uppercase mb-4">My Socials</h4>
-                <a class="btn btn-outline-light btn-social mx-1" 
-                href="#!" onclick="window.alert('Work in Progress')">
-                <i class="fab fa-fw fa-facebook-f"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" 
-                href="https://www.linkedin.com/in/dhonaobina/">
-                <i class="fab fa-fw fa-linkedin-in"></i></a>
+                <span>
+                <h4 class="text-uppercase mb-4">Did you like the Quiz?</h4>
+                <h4 class="text-uppercase mb-4">We can change the questions</h4>
+                <h4 class="text-uppercase mb-4">or</h4>
+                <h4 class="text-uppercase mb-4">create a new one for you</h4>
+                </span>
+            </div>
+            <!-- Footer Social Icons-->
+            <div class="col-lg-4 p-3 mb-3 mb-lg-3" >
+                <h4 class="text-uppercase mb-4">Let's Connect</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" 
+                    href="#!" onclick="window.alert('Work in Progress')">
+                        <i class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" 
+                    href="https://www.linkedin.com/in/dhonaobina/">
+                        <i class="fab fa-fw fa-linkedin-in"></i></a>
                 <br />
                 <br />
-                <a class="btn btn-outline-light btn-social mx-1" 
-                href="https://github.com/dhonaobina">
-                <i class="fab fa-fw fa-github"></i></a>
-                <a class="btn btn-outline-light btn-social mx-1" 
-                href="#!" onclick="window.alert('Work in Progress')">
-                <i class="fab fa-fw fa-instagram"></i></a>
-                
+                    <a class="btn btn-outline-light btn-social mx-1" 
+                    href="https://github.com/dhonaobina">
+                        <i class="fab fa-fw fa-github"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" 
+                    href="#!" onclick="window.alert('Work in Progress')">
+                        <i class="fab fa-fw fa-instagram"></i></a>  
                 <br />
             </div>
         </div>

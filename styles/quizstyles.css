@@ -1,15 +1,10 @@
 *, *::before, *::after {
     font-family: Calibri;
-  }
-  
-:root {
-    --neutral: #f5af02;
-    --wrong: #e53238;
-    --correct: #86b817;
 }
   
-body {
-    background-color: var(--neutral);
+:root {
+    --wrong: #FF6A88;
+    --correct: #2B86C5;
 }
   
 body.correct {
@@ -19,14 +14,13 @@ body.correct {
 body.wrong {
     background-color: var(--wrong);
 }
-  
+
 .containerr {
-    background-color: #efecea;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
     border-radius: 5px;
-    padding: 10px;
     box-shadow: 0 0 10px 2px;
-    margin: 5px;
-    height: 60vh;
+    margin: 50px;
+    height: 50vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -36,42 +30,38 @@ body.wrong {
 }
 
 #question {
-    border: 1px solid black;
     border-radius: 5px;
-    height: 50px;
-    padding: 10px;
+    height: 150px;
+    padding: 8px;
     width: fit-content;
-    
-}
-
-#question-container {
-   
-
+    font-size: 18px;
+    justify-content: center;
 }
   
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin: 20px 0;
+    gap: 5px;
+    padding: 10px;
+    margin: 15px 0;
 }
   
 .btnn {
-    background-color: #0064d2;
-    border: 2px solid black;
+    background-color: #16A085;
+    border: 2px solid #0e172c;
     border-radius: 5px;
-    padding: 5px 10px;
-    color: white;
+    padding: 5px 5px;
+    color:#efecea;
     outline: none;
 }
   
 .btnn:hover {
-    border-color: black;
+    border-color: #0e172c;
 }
   
 .btnn.correct {
     background-color: var(--correct);
-    color: black;
+    color: #0e172c;
 }
   
 .btnn.wrong {
@@ -95,6 +85,9 @@ body.wrong {
    display: flex;
    justify-content: center;
    align-items: center;
+   font-size: 1.2 rem;
+   font-weight: bold;
+   padding: 10px 20px;
 }
   
 .hide {
@@ -102,5 +95,15 @@ body.wrong {
 }
 
 footer {
-    background-color: #0e172c
+    border: 2px solid #0e172c;
+    margin-top: 90px;
+    background-color:#0e172c;
+}
+
+#footerBox {
+    padding: 2px;
+}
+
+#question-container {
+    width: fit-content;
 }

@@ -4,6 +4,9 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+const audio = new Audio();
+audio.src= "styles/music/mouseClick.mp3";
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -18,6 +21,7 @@ function startGame() {
   currentQuestionIndex = 0
   questionContainerElement.classList.remove('hide')
   setNextQuestion()
+  
 }
 
 function setNextQuestion() {
@@ -103,7 +107,7 @@ const questions = [
     ]
   },
   {
-    question: 'What is the most famous beach destination in the Philippines',
+    question: 'What is the most famous beach destination in the Philippines?',
     answers: [
       { text: 'Siargao Beach', correct: false },
       { text: 'El Nido, Palawan', correct: false },
@@ -112,7 +116,7 @@ const questions = [
     ]
   },
   {
-    question: 'What is the name of the popular Filipino dish made with pork, vinegar, and soy sauce',
+    question: 'What is the name of the popular Filipino dish made with pork, vinegar, and soy sauce?',
     answers: [
       { text: 'Sinigang', correct: false },
       { text: 'Kare-Kare', correct: false },

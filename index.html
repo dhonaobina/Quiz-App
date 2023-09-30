@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> Quiz APP | Project 2 </title>
+        <title> Pinoy Quiz | Project 2 </title>
         <meta name="description" content="Quiz Application">
-        <meta name="author" content="Dhona Obina" />
+        <meta name="author" content="Dhona Obina">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/styles.css">
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -15,9 +15,9 @@
     </head>
     <body data-spy="scroll" data-target=".navbar" data-bs-offset="50">
         <!--Navigation Bar-->
-        <nav id="EpicNavbar" class="navbar navbar-expand-lg navbar-dark" style="background-color:#0e172c; opacity:0.9">
+        <nav id="EpicNavbar" class="navbar navbar-expand-lg navbar-dark" style="background-color:#0e172c;">
             <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Quiz App</a>
+              <a class="navbar-brand" href="index.html">Pinoy Quiz</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,77 +33,58 @@
             </div>
             </div>
         </nav>  
-        <!--Login Container-->
-        <div class="container-fluid login-main-container">
-            <div id="login-container" class="login-container container">
-                <div class="">
-                    <h1>Login</h1>
-                    <form id="regForm" onsubmit="return validation()" method="post" action="quiz.html">
-                        <div class="form-group">
-                            <label for="name">Player Name*</label>
-                            <input type="text" class="form-control" id="name" placeholder="please enter player name here">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Enter your email</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="optional">
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                            <button type="submit" id="start-btn" class="start-btn btn btn-primary" onclick="startQuiz()">Start Quiz</button> <!--add function to go to quiz.html-->
-                        </div>
-                    </form>
+    <!--Login Container-->
+    <div class="login-main-container">
+        <div id="login-container" class="login-container container">
+            <h1 class="text-center">MABUHAY!</h1>
+            <h3 class="text-center">How Filipino Are You?</h3>
+            <form id="regForm" onsubmit="return validation()" method="post" action="quiz.html">
+                <div class="form-group">
+                    <h6><label for="name">Player Name*</label></h6>
+                    <input type="text" class="form-control" id="name" placeholder="please enter player name here">
                 </div>
-            </div>
-        <!--Footer Container-->
-        <footer class="container">
-            <div class="container-fluid footer text-center text-dark">
-                <div class="row">
-                    <!-- Footer Location-->
-                    <div class="col-lg-4 p-3 mb-3 mb-lg-3">
-                        <h4 class="text-uppercase mb-4">My Location</h4>
-                        <p class="lead mb-0">
-                        <span>
-                            <p class="lead mb-0">Kaiapoi, Canterbury
-                            </p>
-                            <p class="lead mb-0"> 7630 New Zealand</p>
-                        </span>
-                    </div>
-                    <!-- Footer About Text-->
-                    <div class="col-lg-4 p-3 mb-3 mb-lg-3">
-                      <h4 class="text-uppercase mb-4">My Contact</h4>
-                      <p class="lead mb-0">
-                        <span>
-                          <p class="lead mb-0">dhona.obina@outlook.com</p>
-                          <p class="lead mb-0">+64 27 555 8668</p>
-                        </span>
-                      </p>
-                    </div>
-                    <!-- Footer Social Icons-->
-                    <div class="col-lg-4 p-3 mb-3 mb-lg-3">
-                        <h4 class="text-uppercase mb-4">My Socials</h4>
-                        <a class="btn btn-outline-dark btn-social mx-1" 
-                        href="#!" onclick="window.alert('Work in Progress')">
-                        <i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-dark  btn-social mx-1" 
-                        href="https://www.linkedin.com/in/dhonaobina/">
-                        <i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <br />
-                        <br />
-                        <a class="btn btn-outline-dark  btn-social mx-1" 
-                        href="https://github.com/dhonaobina">
-                        <i class="fab fa-fw fa-github"></i></a>
-                        <a class="btn btn-outline-dark light btn-social mx-1" 
-                        href="#!" onclick="window.alert('Work in Progress')">
-                        <i class="fab fa-fw fa-instagram"></i></a>
-                        
-                        <br />
-                    </div>
+                <br>
+                <div class="form-group">
+                    <h6><label for="email">Email Address</label></h6>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Please enter email address here">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <br>
+                    <button type="submit" id="start-btn" class="start-btn btn btn-primary btn-lg" onclick="startQuiz()">Start Quiz</button> <!--add function to go to quiz.html-->
                 </div>
-            </div>
+            </form>
         </div>
-        <!-- Copyright Section-->
-        <div class="copyright text-center text-secondary">
-            <div class="container"><small>Copyright &copy; Codeglimpse || Dhona Obina 2023</small></div>
-          </div>
-        </footer>
-        <script src="" async defer></script>
-    </body>
+        <!--Instructions-->
+        <div id="instruction-container" class="container  instruction-container">
+            <h3>How to Play:</h3>
+            <ol>
+                <li>Please enter Player's name*</li>
+                <li>Email address optional</li>
+                <li>Click 'Login'</li>
+                <li>Click 'OK' then Click 'Start'</li>
+                    <ul>
+                        <li>Please Note: There are 12 questions</li>
+                    </ul>
+                <li>Choose the best answer by clicking the button</li>
+                <ul>
+                    <li>Correct answer turns green</li> 
+                    <li>Incorrect answer turns red</li>
+                </ul>
+                <li>Click 'Restart' to play again</li>
+                <li>Lastly, Enjoy Kababayan!</li>
+            </ol>
+            <audio preload="auto" loop="true" autoplay="true" controls autoplay>
+                <source src="styles/music/gamekaba.ogg" type="audio/ogg">
+                <source src="styles/music/gamekaba.mp3" type="audio/mpeg">
+                <p>If you are reading this, it is because your browser does not support the audio element.</p>
+            </audio>
+        </div>  
+         
+    </div>  
+<!-- Copyright Section-->
+<footer>
+    <div class="copyright text-secondary text-center text-light">
+        <small>Copyright &copy; Codeglimpse || Dhona Obina 2023</small>
+    </div>
+</footer>    
+</body>
 </html>
