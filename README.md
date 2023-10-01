@@ -49,11 +49,11 @@ HTML, CSS, JavaScript and Added Bootstrap
 - Social Media Links
 
   ## Technologies Used
-- [Figma]
+- [Figma](https://figma.com)
 - [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
 - [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
-- [JavaScript]
-- [Bootstrap]
+- [JavaScript](https://www.javascript.com/)
+- [Bootstrap](https://getbootstrap.com/)
 - [Git](https://git-scm.com/)
 - [GitHub](https://github.com/)
 
