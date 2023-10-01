@@ -1,5 +1,7 @@
 # Quiz App | Project2_2023
 
+Hello, everyone! Welcome to my Pinoy quiz app, where you can test your knowledge and learn more about the Philippines!
+
 A quiz application is a great way to test knowledge, learn new facts, and have fun with others. It can be use for work team building, family gathering, study or just for fun. It can be modify and enhance this in future. It can be modified and improved as per client's request.
 
 I have developed this quiz app as one of my portfolio projects. It demonstrates some of the skills and knowledge that I acquired from the Advanced Front-end course. This course has been challenging but rewarding, and I am determined to complete it. My goal is to pursue my passion for web development and land my dream job. However, I also have to balance my time between studying, working full-time, and raising three children. I can only devote my mornings, nights and weekends to learning new things. But I believe that with hard work and dedication, nothing is impossible.
@@ -59,19 +61,20 @@ HTML, CSS, JavaScript and Added Bootstrap
 
 ## Testing 
 ### Testing User Stories
-- As a quiz taker, I want to have clear instructions before starting the quiz and the should be fun and questions are relatable to me. Correct answers can be proven to be true. I want questions to be unique each round and I am able to restart the quiz.  I also want to be able to get in touch with developer if I want to make comments and suggestion.
-  
+- As a quiz taker, I want the quiz app to be fun and engaging and it should have clear instructions. The correct answers are based on facts and evidence, not opinions or guesses. I can check sources of the answers after finishing the quiz. Questions are randomly generated and it can be restarted. Lastly, I want to provide feedback and communicate with developer.
+
 ### Responsive Testing
 - I used different type of Browsers available with me, Mozilla, Google Chrome, Microsoft Edge and Safari.
 
 ### Interesting Bugs or Problems
-- Elements not positioned correctly
-- Changing color not working when an event was taken by clicking answer buttons
-- Login form unreponsive when Start Quiz is clicked
-- Audio not working properly
-- Fonts style not recognized by when added
-- Coding for quiz unresponsive when button for answers is chosen
-- Background Image was going to left below corner when zoomed out
+- Elements not positioned correctly: I used bootstrap together with flexbox to align the elements on the screen, but some of them were overlapping or not centered properly. I had to adjust the flex properties and margins to fix this issue.
+- Changing color not working when an event was taken by clicking answer buttons: I wanted to change the color of the answer buttons to green or red depending on whether the user selected the correct or incorrect answer, but the color was not changing. I realized that I had to use the setState method to update the color state and trigger a re-render of the component.
+- Login form unresponsive when Start Quiz is clicked: I created a login form to authenticate the user before starting the quiz, but nothing happened when I clicked the Start Quiz button. I checked the console and saw that there was an error with the fetch request to the backend. I had to fix the URL and headers of the request to make it work.
+- Audio not working properly: I added some audio effects to the quiz, such as a sound when the user selects an answer or finishes the quiz, but the audio was not playing or was delayed. I had to use the useEffect hook to load the audio files and play them at the right time.
+- Fonts style not recognized by when added: I wanted to use some custom fonts for the quiz, but they were not showing up on the screen. I had to import them from Google Fonts and link them in the index.html file.
+- Coding for quiz unresponsive when button for answers is chosen: I wrote some logic to check if the user selected the correct answer and update the score and progress, but nothing happened when I clicked on an answer button. I debugged the code and found out that I had a typo in one of the variable names. I had to correct it and test it again.
+- Background Image was going to left below corner when zoomed out: I added a background image to the quiz app, but it was not covering the whole screen when I zoomed out. I had to use the background-size property and set it to cover to make it fit.
+
 
 ## Deployment
 ### Instructions provided by my Online School [Learning People Australia](https://www.learningpeople.com/au/)
@@ -94,4 +97,4 @@ I would like to thank the following sources and people for their contributions a
 - My peers, who participated in the course with me and shared their ideas and experiences with me.
 - My Husband and children, who supported me throughout the course and encouraged me to pursue my passion for web development by giving me time to study and taking over some of the choirs at home.
 
-I am grateful for all the resources and people that helped me to create this quiz app. I hope you enjoy taking the quizzes and learning about the Philippines. Thank you for using my Pinoy quiz app!
+Lastly, I want to thank all the sources and people who helped me to create this app. They provided me with valuable information, feedback, and support. Without them, this app would not be possible. I hope you have fun and enjoy taking the quizzes. You might be surprised by what you discover about the Philippines. Thank you for using my Pinoy quiz app!
