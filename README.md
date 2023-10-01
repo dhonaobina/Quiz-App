@@ -1,6 +1,6 @@
 # Quiz App | Project2_2023
 
-A quiz application is a great way to test knowledge, learn new facts, and have fun with others. It can be use for work team building, family gathering, study or just for fun. It can be modify and enhance this in future. It can be modified and enhance this in future.
+A quiz application is a great way to test knowledge, learn new facts, and have fun with others. It can be use for work team building, family gathering, study or just for fun. It can be modify and enhance this in future. It can be modified and improved as per client's request.
 
 I have developed this quiz app as one of my portfolio projects. It demonstrates some of the skills and knowledge that I acquired from the Advanced Front-end course. This course has been challenging but rewarding, and I am determined to complete it. My goal is to pursue my passion for web development and land my dream job. However, I also have to balance my time between studying, working full-time, and raising three children. I can only devote my mornings, nights and weekends to learning new things. But I believe that with hard work and dedication, nothing is impossible.
 
@@ -27,11 +27,11 @@ HTML, CSS, JavaScript and Added Bootstrap
 ## User Stories
 * As the developer, I want to learn from my mistakes and take feedback positively and continue to learn and create projects similar to quiz app.
 * As a player, I want to be able to understand the use of the app, connect with developer and enjoy.
-* As a follower, I want to get inspirational projects that can be use for future and provide comments and suggestions.
+* As a follower, I want to get inspirational projects that can be use for my own and provide comments and suggestions to developer.
 
 ## Wireframes
-- I use Figma for my wireframe as I research and there has been amazing comments how powerful it is.
-- 
+- I use Figma for my wireframe, there has been amazing comments how powerful it is.
+
 **Login Page - Web & Mobile**
 ![Wireframe1_loginpage_web](https://github.com/dhonaobina/Quiz-App/assets/113093370/423d95ab-61b1-403a-92f0-ea2f9c82d3ac)
 ![Wireframe2_loginpage_mob](https://github.com/dhonaobina/Quiz-App/assets/113093370/7e9be1b0-e3cb-4ac6-b215-4d2754cd0d1f)
@@ -42,7 +42,7 @@ HTML, CSS, JavaScript and Added Bootstrap
 ## Features
 - Hamburger button
 - Login Form
-- Audio can be played by users choice
+- Audio can be played by user's choice
 - Start, Next & Restart button has click sound
 - Color turns green and red when answered
 - Social Media Links
