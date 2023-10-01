@@ -35,6 +35,7 @@ HTML, CSS, JavaScript and Added Bootstrap
 **Login Page - Web & Mobile**
 ![Wireframe1_loginpage_web](https://github.com/dhonaobina/Quiz-App/assets/113093370/423d95ab-61b1-403a-92f0-ea2f9c82d3ac)
 ![Wireframe2_loginpage_mob](https://github.com/dhonaobina/Quiz-App/assets/113093370/7e9be1b0-e3cb-4ac6-b215-4d2754cd0d1f)
+
 **Quiz Page - Web & Mobile**
 ![Wireframe3_quizpage_web](https://github.com/dhonaobina/Quiz-App/assets/113093370/e89fc707-f764-4b21-a816-659894e2c988)
 ![Wireframe4_quizpage_mob](https://github.com/dhonaobina/Quiz-App/assets/113093370/2fe0dd7a-a46b-4868-8874-0851093061d7)
