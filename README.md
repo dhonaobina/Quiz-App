@@ -27,14 +27,61 @@ HTML, CSS, JavaScript and Added Bootstrap
 ## User Stories
 * As the developer, I want to learn from my mistakes and take feedback positively and continue to learn and create projects similar to quiz app.
 * As a player, I want to be able to understand the use of the app, connect with developer and enjoy.
-* As a follower, I want to get inpirational projects that can be use for future and provide comments and suggestions.
+* As a follower, I want to get inspirational projects that can be use for future and provide comments and suggestions.
 
 ## Wireframes
+- I use Figma for my wireframe as I research and there has been amazing comments how powerful it is.
+- 
+**Login Page - Web & Mobile**
+![Wireframe1_loginpage_web](https://github.com/dhonaobina/Quiz-App/assets/113093370/423d95ab-61b1-403a-92f0-ea2f9c82d3ac)
+![Wireframe2_loginpage_mob](https://github.com/dhonaobina/Quiz-App/assets/113093370/7e9be1b0-e3cb-4ac6-b215-4d2754cd0d1f)
+**Quiz Page - Web & Mobile**
+![Wireframe3_quizpage_web](https://github.com/dhonaobina/Quiz-App/assets/113093370/e89fc707-f764-4b21-a816-659894e2c988)
+![Wireframe4_quizpage_mob](https://github.com/dhonaobina/Quiz-App/assets/113093370/2fe0dd7a-a46b-4868-8874-0851093061d7)
 
+## Features
+- Hamburger button
+- Login Form
+- Audio can be played by users choice
+- Start, Next & Restart button has click sound
+- Color turns green and red when answered
+- Social Media Links
 
+  ## Technologies Used
+- [Figma]
+- [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
+- [JavaScript]
+- [Bootstrap]
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
 
+## Testing 
+### Testing User Stories
+- 
+### Responsive Testing
+- I used different type of Browsers available with me, Mozilla, Google Chrome, Microsoft Edge and Safari.
 
+### Interesting Bugs or Problems
+- Elements not positioned correctly
+- Changing color not working when an event was taken by clicking answer buttons
+- Login form unreponsive when Start Quiz is clicked
+- Audio not working properly
+- Fonts style not recognized by when added
+- Coding for quiz unresponsive when button for answers is chosen
+- Background Image was going to left below corner when zoomed out
 
+## Deployment
+### Instructions provided by my Online School [Learning People Australia](https://www.learningpeople.com/au/)
+- Open your project repository on Github, Go to the ‘Settings’ tab.
+- Scroll down to ‘GitHub Pages’
+- Under ‘Source’, click on the ‘None’ dropdown and choose ‘Master’
+- Make sure the Root Folder is selected and click ‘Save’.
+- Your page will reload, scroll back down to GitHub Pages and you will now see a URL.
+This is a link to a live version of your site.
 
+### Repository Link & Run the Code Locally
+[https://github.com/dhonaobina/Project1_2022](https://github.com/dhonaobina/Quiz-App)
+- To run this code locally, users can do a Pull Request to download a local copy.
 
-
+## Credits and Acknowledgments
