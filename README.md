@@ -10,15 +10,15 @@ This project has been a valuable opportunity for me to reconnect with my roots a
 
 ## UX 
 
-To enhance my web development skills, I have been using various resources besides the modules from Percipio, which are provided by Learning People Australia. One of them is the YouTube channel Web Dev Simplified, where I learned some useful concepts and techniques.
+To enhance my web development skills, I have been using various resources besides the modules from Percipio, which are provided by Learning People Australia. One of them is the YouTube channel, Web Dev Simplified, where I learned some useful concepts and techniques in JavaScript.
 
 ### Background and colors:
 
-Chosen background image is related to Quiz and Color choices are simple and easy on eyes. The app creates a positive and engaging experience for anyone who loves quizzes.
+The chosen background image is related to the Quiz and Color choices are simple and easy on eyes. The app creates a positive and engaging experience for anyone who loves quizzes.
 
 ### Framework:
 
-HTML, CSS, JavaScript and Added Bootstrap
+HTML, CSS, JavaScript and Bootstrap
 
 ### If I would do this project again:
 - Add a score at the end of quiz and create a Scoreboard page
