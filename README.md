@@ -99,5 +99,5 @@ I would like to thank the following sources and people for their contributions a
 
 Lastly, I want to thank all the sources and people who helped me to create this app. They provided me with valuable information, feedback, and support. Without them, this app would not be possible. I hope you have fun and enjoy taking the quizzes. You might be surprised by what you discover about the Philippines. Thank you for using my Pinoy quiz app!
 
-###Visit 
+### Click to Visit 
 [Pinoy Quiz App](https://dhonaobina.github.io/Quiz-App/)
