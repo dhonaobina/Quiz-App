@@ -22,7 +22,7 @@ if (email.value == '')
     }
 
 function startQuiz() {
-    location.replace("quiz.html")    
+    location.replace("https://dhonaobina.github.io/Quiz-App/quiz.html")    
 }
 
 
