@@ -81,8 +81,8 @@ HTML, CSS, JavaScript and Added Bootstrap
 - Your page will reload, scroll back down to GitHub Pages and you will now see a URL.
 This is a link to a live version of your site.
 
-### Repository Link & Run the Code Locally
-[https://github.com/dhonaobina/Project1_2022](https://github.com/dhonaobina/Quiz-App)
+### Fork Repository Link & Run the Code Locally
+https://github.com/dhonaobina/Quiz-App/fork
 - To run this code locally, users can do a Pull Request to download a local copy.
 
 ## Credits and Acknowledgments
