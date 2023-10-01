@@ -22,6 +22,7 @@ if (email.value == '')
     }
 
 function startQuiz() {
+    //location.replace("https://dhonaobina.github.io/Quiz-App/quiz.html")
     location.href="quiz.html";   
 }
 
