@@ -59,7 +59,8 @@ HTML, CSS, JavaScript and Added Bootstrap
 
 ## Testing 
 ### Testing User Stories
-- 
+- As a quiz taker, I want to have clear instructions before starting the quiz and the should be fun and questions are relatable to me. Correct answers can be proven to be true. I want questions to be unique each round and I am able to restart the quiz.  I also want to be able to get in touch with developer if I want to make comments and suggestion.
+  
 ### Responsive Testing
 - I used different type of Browsers available with me, Mozilla, Google Chrome, Microsoft Edge and Safari.
 
@@ -86,3 +87,11 @@ https://github.com/dhonaobina/Quiz-App/fork
 - To run this code locally, users can do a Pull Request to download a local copy.
 
 ## Credits and Acknowledgments
+I would like to thank the following sources and people for their contributions and support in creating this quiz app:
+- The Stack Overflow community, which answered many of my questions and helped me to solve some of the challenges I faced while developing the quiz app. You can visit [Stack Overflow](https://stackoverflow.com/)
+- My student adviser and mentors, who guided me through the advanced front-end programming course and gave me valuable feedback and suggestions on my quiz app.
+- To [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified) for sharing his knowledge publicly in Youtube and GitHub.
+- My peers, who participated in the course with me and shared their ideas and experiences with me.
+- My Husband and children, who supported me throughout the course and encouraged me to pursue my passion for web development by giving me time to study and taking over some of the choirs at home.
+
+I am grateful for all the resources and people that helped me to create this quiz app. I hope you enjoy taking the quizzes and learning about the Philippines. Thank you for using my Pinoy quiz app!
