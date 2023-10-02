@@ -4,12 +4,12 @@ var email = document.forms["regForm"]["email"];
 
 if (document.getElementById('name').value == '')
 {
+    document.getElementById('name').focus();
+      
     alert("Please enter your name.");
     return false;
-    //document.getElementById('name').focus();
-   
+  
 }
-
 
 if (email.value == '')
     {
@@ -21,15 +21,19 @@ if (email.value == '')
         document.getElementById("email").focus();
         return true;
     }
+//Second Try
+   //function startQuiz() {
+       //document.location.href="quiz.html";
+    //}
 
-    function startQuiz() {
-        document.location.href="quiz.html"
-    }
+//First Try
+    //function startQuiz() {
+    //location.replace("https://dhonaobina.github.io/Quiz-App/quiz.html")
+    //location.href="quiz.html";   
+    //}
 };
-//function startQuiz() {
-//location.replace("https://dhonaobina.github.io/Quiz-App/quiz.html")
-//location.href="quiz.html";   
-//}
+
+
     
 
 
