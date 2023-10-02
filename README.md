@@ -74,6 +74,7 @@ HTML, CSS, JavaScript and Bootstrap
 - Fonts style not recognized by when added: I wanted to use some custom fonts for the quiz, but they were not showing up on the screen. I had to import them from Google Fonts and link them in the index.html file.
 - Coding for quiz unresponsive when button for answers is chosen: I wrote some logic to check if the user selected the correct answer and update the score and progress, but nothing happened when I clicked on an answer button. I debugged the code and found out that I had a typo in one of the variable names. I had to correct it and test it again.
 - Background Image was going to left below corner when zoomed out: I added a background image to the quiz app, but it was not covering the whole screen when I zoomed out. I had to use the background-size property and set it to cover to make it fit.
+- Login Script not working in deployment environment but works locally: I tried multiple ways to fix it and will continue to solve this issue. For now, this is for interactive and presentation purposes only.
 
 
 ## Deployment
@@ -98,3 +99,6 @@ I would like to thank the following sources and people for their contributions a
 - My Husband and children, who supported me throughout the course and encouraged me to pursue my passion for web development by giving me time to study and taking over some of the choirs at home.
 
 Lastly, I want to thank all the sources and people who helped me to create this app. They provided me with valuable information, feedback, and support. Without them, this app would not be possible. I hope you have fun and enjoy taking the quizzes. You might be surprised by what you discover about the Philippines. Thank you for using my Pinoy quiz app!
+
+### Click to Visit 
+[Pinoy Quiz App](https://dhonaobina.github.io/Quiz-App/)
