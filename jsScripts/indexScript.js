@@ -5,8 +5,9 @@ var email = document.forms["regForm"]["email"];
 if (document.getElementById('name').value == '')
 {
     alert("Please enter your name.");
-    document.getElementById('name').focus();
     return false;
+    //document.getElementById('name').focus();
+   
 }
 
 
@@ -21,10 +22,17 @@ if (email.value == '')
         return true;
     }
 
-function startQuiz() {
-    //location.replace("https://dhonaobina.github.io/Quiz-App/quiz.html")
-    location.href="quiz.html";   
-}
-
-
+    function startQuiz() {
+        document.location.href="quiz.html"
+    }
 };
+//function startQuiz() {
+//location.replace("https://dhonaobina.github.io/Quiz-App/quiz.html")
+//location.href="quiz.html";   
+//}
+    
+
+
+
+
+
